@@ -2,23 +2,24 @@ import Image from "next/image";
 import { FaUserTie } from "react-icons/fa6";
 
 const Trainers = () => {
-  const trainers = [
-    {
-      name: "John Carter",
-      role: "Certified Personal Trainer",
-      img: "https://images.unsplash.com/photo-1594737625785-c0f47b4c49c6?q=80&w=1080&auto=format&fit=crop",
-    },
-    {
-      name: "Ava Patel",
-      role: "Yoga & Mobility Instructor",
-      img: "https://images.unsplash.com/photo-1598970434795-0c54fe7c0640?q=80&w=1080&auto=format&fit=crop",
-    },
-    {
-      name: "Michael Lee",
-      role: "Strength & Conditioning Coach",
-      img: "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?q=80&w=1080&auto=format&fit=crop",
-    },
-  ];
+const trainers = [
+  {
+    name: "John Carter",
+    role: "Certified Personal Trainer",
+    img: "https://randomuser.me/api/portraits/men/32.jpg",
+  },
+  {
+    name: "Ava Patel",
+    role: "Yoga & Mobility Instructor",
+    img: "https://randomuser.me/api/portraits/women/44.jpg",
+  },
+  {
+    name: "Michael Lee",
+    role: "Strength & Conditioning Coach",
+    img: "https://randomuser.me/api/portraits/men/28.jpg",
+  },
+];
+
 
   return (
     <section id="trainers" className="py-20 bg-black text-white">
