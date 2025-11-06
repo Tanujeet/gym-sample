@@ -9,7 +9,7 @@ const Hero = () => {
     >
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1517836357463-d25dfeac2e9a?q=80&w=1920&auto=format&fit=crop"
+        src="/images/dumbell.webp"
         alt="People working out in a gym"
         fill
         priority
